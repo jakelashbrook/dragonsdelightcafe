@@ -299,3 +299,15 @@ i {
 .why-us-container .col i {
     font-size: 42px;
 }
+
+/*         Tripadvisor Reviews */
+.reviews {
+    background-color: #464646;
+    color: #fafafa;
+    border: 1px solid #daa520;
+}
+
+.reviews h4 {
+    color: #daa520;
+}
+
