@@ -59,7 +59,7 @@ User Experience (UX)
 I decided that the culture of Mobile Users and Desktop users was extremely different. People using mobiles are often
 on the move and have less time to scroll through mountains of content. They are also using touch screen devices which
 makes scrolling more of a chore. With this in mind I decided to keep the mobile version much simpler with just the 
-vitally important information they would need to make an order, or visit the cafe. Users with larger screebs tend to 
-have more leisurely approach to visiting a site and obviously a much bigger screen to have more detailed content- 
+vitally important information they would need to make an order, or visit the cafe. Users with larger screens tend to 
+have a more leisurely approach to visiting a site and obviously a much bigger screen to have more detailed content- 
 so it makes sense to give these users a more indepth view of the company and extra encouragement to come along 
 and try it for themselves.
