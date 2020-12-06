@@ -267,3 +267,35 @@ i {
 .menu-body .diet-info {
     color: #fafafa;
 }
+
+/* Why Visit Us? */
+
+.why-us-container {
+    border-width: 0.5px 1px 0.5px 1px;
+    border-style: solid;
+    border-color:#daa520;
+}
+
+.why-us-bg-img {
+    background-image: url("../images/dutch-apple-pie.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.why-us-title h3 {
+    color: #daa520;
+    font-weight: 900;
+    background-color: #323232;
+    border: 1px solid #daa520;  
+}
+
+.why-us-container .col {
+    border: 2px solid #daa520;
+    background-color: #323232;;
+    opacity: 0.9;
+}
+
+.why-us-container .col i {
+    font-size: 42px;
+}
