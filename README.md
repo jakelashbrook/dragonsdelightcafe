@@ -101,4 +101,69 @@ Technologies Used
     for a later release so the site can visibly grow more over several releases.
 7. [EZ Gif](https://ezgif.com/)  
     - Used to edit the width/height of images and decrease their file sizes
-   whilst maintining the maximum quality possible. 
+   whilst maintining the maximum quality possible.  
+
+   Testing
+====
+### **Validation** 
+The W3C Markup Validator and The W3C CSS Validator Services were used to validate every page of the project
+to ensure there were no syntax errors in the project:  
+
+  - [W3C Markup Validator - Results](#)
+  - [W3C CSS Validator - Results](#)  
+
+### **Testing User Stories from the UX Section**
+ - **First Time User Goals:**  
+
+    i. As a first time user, I want to access a menu to see what products are available should i choose to visit.  
+      - a. Upon entering the site, users are instantly greeted with the option to go to the Menu on the top navigation 
+      bar.
+      - b. Once clicking on the "Menu" button you're taken directly to the Food and Drink Menu section of the site.
+      - c. The user has the option to collapse or expand either Menu.  
+    
+    ii. As a first time user, I want to be able to easily navigate through the site content and find what I'm looking
+        for with ease.  
+      - a. Upon entering the site, you find a fixed navigation bar that takes you to all the main sections of the site.
+      - b. Throughout the site there is a "Back to the top button" that will take the user back to the top of the page at 
+        a click.  
+
+    iii.  As a first time user, I want to see pictures of the restaurant and food to act as evidence of the standard and quality of food.
+      - a. Upon entering the site, you are met with a cover image displaying succulent Vegan Pancakes filled with berries to act as a
+           taster for the standard of food you can expect to find at Dragons Delight.
+      - b. As soon as you enter the site you are given the option to navigate straight to the gallery using the top navigation menu.
+      - c. You can find images of food throughout the page acting as background images for informative content.   
+    
+    iiii.  As a first time user, I want to easily find contact methods such as social media, email or telephone links.  
+      - a.  There are contact methods for emailing and calling displayed in the naviagtion menu with icons and titles describing them upon hovering.
+      - b.  There are also Social Media Links available in the top navigation, which users could also contact Dragons Delight via.
+      - c.  There are further email and call links provided underneath the opening times encouraging users to contact if they have any enquiries.
+  
+
+ - **Returning User Goals:**  
+
+    i.  As a returning visitor, I want to know how to make a reservation.
+      - a. As soon as you enter the site you are given the option to "Reserve". Upon clicking 
+      the "Reserve" button in the top navigation you are taken to the reservation form.
+      - b. Users that are unsure are encouraged to make enquiries via email or phone using links 
+      at the bottom of the Opening Times section.
+
+    ii.  As a returning visitor, I want to check that the opening times have not changed.
+      - a. Upon entering the site you see the Opening Times section straight away underneath the 
+      cover image.
+      - b. Users are encouraged to make enquiries via email or phone within this section if they need
+      assistance.
+
+ - **Frequent User Goals:**  
+
+    i. As a frequent user, I want to know how I can keep up to date with all the latest
+    Dragons Delight news. Is there a newsletter?
+      - a. The website offers Users the chance to sign up to the company newsletter by simply entering
+      their email address and clicking "submit". 
+      - b. The website also highlights the Social Media Links for Dragons Delight, and informs Users that
+      they can keep up to date with all the latest news via Facebook and Instagram.  
+      
+    ii. As a frequent user, I want to know about any loyalty schemes or special offers available to customers.  
+      - a. The website offers information about the loyalty card scheme and how it works underneath the 
+      newsletter sign up banner. 
+      - b. Next to the Loyalty Scheme section, there is information about the special Student Club currently
+      on offer at Dragons Delight. Users can click the email link to sign up.
