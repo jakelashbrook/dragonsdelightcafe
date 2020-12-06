@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    position: relative;
+    background-color: #323232;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #daa520;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Noto Sans Jp", sans-serif;
+}
+
+a {
+ color: #daa520;
+}
+
+a:hover {
+    color: #daa520;
+}
+
+hr {
+    border: 2px solid #daa520;
+}
+
+mark {
+    background-color: #daa520;
+}
+
+em {
+    color: #daa520;
+}
+
+i {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+}
