@@ -494,3 +494,12 @@ i {
 .find-us h4 {
     color: #daa520;
 }
+
+/* The Footer */ 
+.footer-container {
+    background-color: #323232;
+    opacity: 0.9;
+    color: #fafafa;
+    border: 1px solid #daa520;
+    
+}
