@@ -311,3 +311,60 @@ i {
     color: #daa520;
 }
 
+/* Reservation Form                      */
+.reservation-area {
+    background-image: url(../images/blt-scone.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 1px solid #daa520;
+}
+
+.reservation-area .reservation-title {
+    background-color: #323232;
+    opacity: 0.9;
+}
+
+
+.reservation-area form {
+    background-color: #323232;
+    opacity: 0.9;
+    color: #daa520;
+}
+
+.reservation-area form input {
+    border: 2px solid #daa520;
+}
+
+.reservation-area select {
+    border: 2px solid #daa520;
+}
+
+.reservation-area small {
+    color: #fafafa;
+    opacity: 0.75;
+}
+
+.reservation-area form .btn {
+    background-color: #daa520;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    font-weight: 700;
+    }
+
+.reservation-area form .btn:hover {
+    background-color: #fafafa;
+    border: 1px solid #daa520;
+    color: #daa520;
+    font-weight: 700;
+}
+
+.reservation-area form .btn:active {
+    content: "Sent";
+    background-color: #fafafa;
+    border: 1px solid #daa520;
+    color: #daa520;
+    font-weight: 700;
+}
+
