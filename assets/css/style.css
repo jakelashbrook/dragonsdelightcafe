@@ -359,5 +359,40 @@ i {
     font-weight: 700;
 }
 
+/* Newsletter Sign Up Container */
+.newsletter-container {
+    background-color: #464646;
+    border-width: 0.5px 1px 0.5px 1px;
+    border-style: solid;
+    border-color: #daa520;
+    text-align: center;
+}
 
+.newsletter-container .newsletter-title {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+}
+
+.newsletter-container input[type="email"] {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #daa520;
+}
+
+.newsletter-container input[type="submit"] {
+    width: 30%;
+    box-sizing: border-box;
+    font-weight: 600;
+    background-color: #daa520;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+}
+
+.newsletter-container input[type="submit"]:hover {
+    background-color: #fafafa;
+    color: #daa520;
+    border: 1px solid #daa520;
+    border-radius: 10px;
+}
 
