@@ -26,6 +26,7 @@ h3 {
 p {
     font-size: 18px;
     font-family: "Noto Sans Jp", sans-serif;
+    color: #fafafa;
 }
 
 a {
@@ -206,3 +207,18 @@ i {
     color: #daa520;
     text-shadow: 1px 1px #323232;
 }
+
+/* --- Bio */
+.short-bio {
+    background-color: #323232;
+    color: #fafafa;
+    border: 1px solid #daa520;
+}
+
+/* --- Opening Times */
+.opening-bio .opening-times {
+    background-color: #323232;
+    color: #fafafa;
+    border: 1px solid #daa520;
+}
+

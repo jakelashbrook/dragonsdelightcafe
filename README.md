@@ -63,3 +63,42 @@ vitally important information they would need to make an order, or visit the caf
 have a more leisurely approach to visiting a site and obviously a much bigger screen to have more detailed content- 
 so it makes sense to give these users a more indepth view of the company and extra encouragement to come along 
 and try it for themselves.
+
+## Features
+  - Easy navigation through the site with a scroll to the top button on all buttons, 
+    and fixed navigation on desktops.
+  - Responsive on all devices, including the Samsung Galaxy Fold. Smaller than Bootstrap Breakpoints.
+  - Social Media Links, with future further integration planned with Facebook Messenger.
+  - Easy Order Now CTA on all devices.  
+
+Technologies Used
+====
+
+### **Languages Used:**  
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
+
+- [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
+
+### **Frameworks, Libraries and Programs Used:** 
+1. [Bootstrap 4.0.0:](https://getbootstrap.com/docs/4.5/getting-started/download/)
+    - Used throughout the website for responsive components and the grid system.
+2. [Google Fonts:](https://fonts.google.com/) 
+    - Used to import the 'Just Another Hand' for the site title and certain features and 'Noto Sans JP' fonts to the
+      style.css page. Both fonts are used across the entire site.
+3. [Font Awesome:](https://fontawesome.com/)
+    - Used across all sections in the site to catch the users attention and fit with UX 
+      conventions of being able to easily identify the meaning of content areas and links from the icons 
+      displayed.
+4. [Git:](https://git-scm.com/)
+    - Used for maintaining version control for possible later edits, changes, updates or fixes. 
+      The Gitpod terminal was used to commit to Git, and then Git pushed to GitHub.
+5. [GitHub:](https://github.com/)
+    - Used to store the project as a repository after being pushed by Git. 
+6. [W3.css](https://www.w3schools.com/w3css/default.asp)
+    - Used to add extra responsivity and styling to the layout of the cover Image text overlay. 
+    I originally planned to include more W3.css animations on the gallery area, but decided to hold back 
+    for a later release so the site can visibly grow more over several releases.
+7. [EZ Gif](https://ezgif.com/)  
+    - Used to edit the width/height of images and decrease their file sizes
+   whilst maintining the maximum quality possible. 
