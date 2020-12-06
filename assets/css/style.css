@@ -396,3 +396,39 @@ i {
     border-radius: 10px;
 }
 
+/* The Student/ Loyalty Container*/
+.student-loyalty {
+    background-color: #323232;
+    border: 1px solid #daa520;
+    border-top: none;
+}
+
+/* The Student Club */
+
+.student-club-info {
+    color: #fafafa;
+    border: 1px solid #daa520;
+}
+
+/* The Loyalty Card */ 
+.loyalty-card-info {
+    color: #fafafa;
+    border: 1px solid #daa520;
+}
+/* The Student/ Loyalty Container*/
+.student-loyalty {
+    background-color: #323232;
+    border: 1px solid #daa520;
+    border-top: none;
+}
+
+/* The Student Club */
+
+.student-club-info {
+    border: 1px solid #daa520;
+}
+
+/* The Loyalty Card */ 
+.loyalty-card-info {
+    border: 1px solid #daa520;
+}
