@@ -107,3 +107,24 @@ i {
     background-color: #daa520;
     border-radius: 10px;
 }
+
+/* --- Cover Image */
+#cover-bg-img {
+    height: 60vh;
+    width: 100vw;
+    margin-right: 0;
+
+    background-image: url("../images/other-vegan-pancakes.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+#cover-img-container {
+    height: 60vh;
+    width: 100vw;
+
+    margin-right: 0;
+}
