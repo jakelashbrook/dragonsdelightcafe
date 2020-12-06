@@ -51,3 +51,60 @@ i {
     color: #daa520;
     text-shadow: 1px 1px #fafafa;
 }
+
+/* The Navigation Bar */
+.nav-container {
+    padding: 0;
+}
+.navbar {
+    background-color: #323232;
+    opacity: 0.9;
+    border: 1px solid #daa520;
+    width: 100vw;
+    height: auto;
+    position: fixed; 
+    z-index: 99;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        position: relative;
+    }
+}
+
+.navbar .logo-title {
+    font-family: "Just Another Hand", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: #daa520;
+    text-shadow: 0.5px 0.5px #fafafa;
+    letter-spacing: 4px;
+}
+
+.navbar-toggler i {
+    color: #daa520;
+    text-shadow: none;
+}
+
+.navbar .collapse .navbar-collapse {
+    background-color: #323232;
+    opacity: 0.9;
+    border: 1px solid #daa520;
+}
+
+.navbar .nav-link {
+    color: #fafafa;
+    font-weight: 600;
+    margin: 0 15px 0 15px;
+    letter-spacing: 2px;
+}
+
+.navbar .nav-link i {
+    color: #fafafa;
+    text-shadow: none;
+}
+
+.navbar .nav-link:hover {
+    background-color: #daa520;
+    border-radius: 10px;
+}
