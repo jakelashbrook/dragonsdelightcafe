@@ -167,3 +167,145 @@ to ensure there were no syntax errors in the project:
       newsletter sign up banner. 
       - b. Next to the Loyalty Scheme section, there is information about the special Student Club currently
       on offer at Dragons Delight. Users can click the email link to sign up.
+
+
+### **UX Survey**
+As part of my User Experience analysis I decided to run a survey with close family and friends, and the company
+that the website will be for. During the testing phase I deployed the site to GitHub pages and made a survey with 
+the following questions:  
+
+- **1. What changes could be made to make the site look more appealing?**
+    - One survey reply suggested to use snaps with customers in, however the company
+    did not want to use this approach out of fear of not having consent to publish.
+    - Another response suggested using better quality photos. This was a tough part of
+    designing the site. Currently most of their content library is amateur photography.
+    The company plans to get a photographer in for some proffesional photos, at this point
+    all images on the website will be upgraded. Images have been set at 600x600 to try and make 
+    them as responsive as possible.
+    - Another User suggested changing the heading font on the sections to make the site more 
+    readable. This action has been taken and now only has Noto Sans JP across the site accept 
+    for the logo title.  
+
+- **2. What could be improved with the functionality/navigation of the site?**
+    - One Survey User suggested the button to the top didn't take the page right to the top
+    of the page. This comment was immediately addressed and has now been fixed.
+    - Other suggestions were noted for later releases when Javascript will be added.
+- **3. What other functionalities do you think the site should have?** 
+    - Most Users of the survey stated that nothing came to mind.
+    - One User stated a Cake Ordering System, this is planned for a later release.
+- **4. Do you have any suggestions for other improvements to the site?**
+    - The majority of survey users had nothing to add.
+- **5. How would you rate your overall experience with the website?**
+    - All Users voted Good or Very Good.  
+
+Some of the answers in the survey were deemed irrelevant because the Users had merely overlooked 
+things rushing through the process of evaluation. All answers have been throughly investigated, 
+the issues raised that haven't been addressed in this release will be scheduled for the next so
+that Users feel a sense of evolution when returning to use the site.
+
+*You can view the survey results [here](/docs/ux-survey-results.pdf).*  
+
+Release Planning
+====
+
+**Initial Release**  
+
+This is the current version of the website. Everything you see in the [linked repository](https://github.com/jakelashbrook/dragonsdelightcafe) 
+is the first release of the Dragons Delight MVP website. There will be later releases planned as my coding knowledge 
+expands so that the site can continue to grow and evolve to meet the users and companies needs. Time is also a factor 
+in assesing later releases. Stages are yet to be decided, but you can see a list below of areas that will be addressed 
+in future releases. This release has been under production by myself for over a month, I have purposely made a new 
+repository for releasing this site so that developers can work back through clearer commits to easily find each stage 
+of the site easily should Dragons Delight decide they wish another Developer to work on their site in the future. 
+
+
+**Later Releases**  
+- Multi Lingual options with flags of relevant languages to click on. The next logical step will be to make a Dutch 
+version of the website. The reason English was decided on first was due to the culture of the business. Most of the 
+clients are expats or tourists, and the business is ran using the English language. However, with ambitions to expand
+into the community- I would like to make a Dutch version of all the content available. I will be working on this for
+the next release. Other languages will also be considered at later stages.
+- A "Bakery Store" where users can pre-order cakes for collection. There will be a 24 hour period before the cakes can
+be picked up, and the owner is working on content and descriptions for this. This will come into force at a much later 
+stage.
+- A "Work For Us" area where users can apply for a job with their CV's.
+- A "Staff Portal" where rotas, holiday requests, personnel details, and edits to the site can be made from.
+
+Other Ideas may be added to this area at a later stage in conjunction with the business and user needs.  
+
+**RELEASE NOTE:** *All of these releases will be made when more time is available and more software languages have been learnt to enact 
+them.*  
+
+Deployment 
+==== 
+
+### **GitHub Pages**
+
+ I deployed the project to GitHub Pages directly from my repository setting. 
+ You can deploy for yourself following these steps:
+ 1. Log into your [GitHub Account](http://github.com/) and locate the [Dragons Delight Repository](https://github.com/jakelashbrook/dragonsdelightcafe)
+ 2. At the top of your repository, you should see a navigation explicitly for your repository
+ starting with Code and ending with Settings. Click on the "Settings" button on this menu.
+ 3. Scroll down the "Settings Page" until you reach the "GitHub Pages" section. 
+ 4. Then, Click on the "Source" button. 
+ 5. In the Dropdown, hit the "None" option and finally select the "Master Branch".
+ 6. After this confirmation the page will refresh and take you back to the top of the "Settings" page.
+ 7. Simply scroll back down to "GitHub Pages" section and you will locate [link](https://jakelashbrook.github.io/dragonsdelightcafe/.) for the published site.
+
+*You can find out more about GitHub Pages [here](https://pages.github.com/).*
+
+ ### **Forking the repository**
+
+ You can fork the repository to make a copy of the original repository where you can make edits or changes to 
+ the files without affecting the original repository version. If you would like to fork the repository, follow
+ these instructions:
+ 1. Log into [GitHub](http://github.com/) and locate the [Dragons Delight Repository](https://github.com/jakelashbrook/dragonsdelightcafe).
+ 2. At the top of the repository (using the repository navigation bar, not the site navigation) just above the
+ "Settings" button you can locate the "Fork" Button.
+ 3. Press the "Fork" Button.
+ 4. You should now have a copy of the [Dragons Delight Repository](https://github.com/jakelashbrook/dragonsdelightcafe) in your GitHub Accounts Repository area.
+
+*You can find out more about forking a repository [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo).*
+
+ ### **Making a Local clone** 
+
+ 1. Log into [GitHub](http://github.com/) and locate the [Dragons Delight Repository](https://github.com/jakelashbrook/dragonsdelightcafe).
+ 2. Check under the repository name for the "Clone or Download" button.
+ 3. To clone the repository using HTTPS, underneath "Clone with HTTPS", copy the link.
+ 4. Open GitBash and change the current working directory to the location where you want the cloned version
+    of the directory to be installed.
+ 5. Type `git clone` and then paste the HTTPS code you copied ealier.  
+
+    For example:  
+
+    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+ 6. Press Enter and your local clone should be created.  
+
+*You can find more supportive information on the process of cloning a repository [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).*
+
+Credits  
+==== 
+
+### **Code**
+ - [Bootstrap 4.0.0](https://getbootstrap.com/docs/4.3/components/navbar/) Framework used throughout the website
+ for responsive components and the grid system. The Carousel component was used for a Gallery exclusively for mobile
+ devices, A review section for larger sites and the Dropdown component for the food and drinks menu.
+- [Google Map Generator](https://www.embedgooglemap.net/) was used for the map iFrame in the Find Us section. The code has been edited slightly via 
+ CSS and certain HTML parts removed to optimize its style within the page.
+ - [W3.css Display Container](https://www.w3schools.com/w3css/w3css_images.asp) was used to display the Order CTA 
+ overlaying the cover image.
+
+### **Content**
+ - All of the content was developed for Dragons Delight by Jake Ashley Lashbrook. 
+ Business operation times and menu items were provided by Dragons Delight, Tolstraat 200, Amsterdam, 1074 VN, NL.
+### **Media**
+ - All Images used on the site are owned by Dragons Delight and taken from their [Facebook Page]("https://www.facebook.com/DragonsDelightAmsterdam")
+   with consent to be exclusively used by Jake Ashley Lashbrook in developing their future website.
+### **Acknowledgements** 
+ - Antonio Rodriguez , my Code Institute Mentor for supporting me through my learning within the Development industry
+   and Code Institute platform. 
+ - The Code Institute Team, for teaching me skills that enabled me to push my knowledge capacity further day after day and 
+   introducing me to working with Bootstrap as a framework.
+ - Dragons Delight Cafe in Amsterdam for helping me to decide on changing career path and trusting me to develop my first
+   website for them.
+

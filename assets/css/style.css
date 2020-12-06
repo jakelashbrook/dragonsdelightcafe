@@ -240,7 +240,7 @@ i {
     font-size: 28px;
     font-family: "Just Another Hand", cursive;
     color: #daa520;
-    text-shadow: #323232 1px solid;
+    text-shadow: #323232 1px 1px;
 }
 
 .menu-body h5 {
@@ -500,15 +500,13 @@ i {
     background-color: #323232;
     opacity: 0.9;
     color: #fafafa;
-    border: 1x solid #daa520;
+    border: 1px solid #daa520;
 }
     
     /* Scroll to the top button */
   #top-of-the-page-btn {
   position: fixed; 
   bottom: 40px; 
-  right: 40px; 
-  z-index: 99; 
   border: 1px solid #fafafa; 
   background-color: #daa520; 
   color: #fafafa; 
