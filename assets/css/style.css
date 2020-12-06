@@ -439,7 +439,7 @@ i {
 }
 
 #gallery {
-    background-color: #323232;
+    background-color: #464646;
     column-count: 3;
 }
 
@@ -464,4 +464,33 @@ i {
 .gallery-carousel img {
     width: 100%;
     height: 300px;
+}
+
+/*                   Find Us           */
+.find-us {
+    background-color: #323232;
+    color: #fafafa;
+    border: 1px solid #daa520;
+}
+
+.find-us iframe {
+    width: 100%;
+    height: 275px;
+}
+
+.find-us h3 {
+    color: #daa520;
+}
+
+.find-us h3 i {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+}
+
+.find-us hr {
+    border: 2px solid #daa520;
+}
+
+.find-us h4 {
+    color: #daa520;
 }
