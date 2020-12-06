@@ -232,14 +232,15 @@ i {
 }
 
 .menu-body {
-    background-color: #323232;
+    background-color: #464646;
     color: #fafafa;
-    text-align: center;
 }
 
 .menu-body .menu-title h5 button {
     font-size: 28px;
-    font-family: "Just Another Hand", sans-serif;
+    font-family: "Just Another Hand", cursive;
+    color: #daa520;
+    text-shadow: #323232 1px solid;
 }
 
 .menu-body h5 {
@@ -260,7 +261,7 @@ i {
 }
 
 .menu-body .milk-options {
-    color: #daa520;
+    color: #fafafa;
 }
 
 .menu-body .diet-info {
