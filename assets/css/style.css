@@ -59,6 +59,8 @@ i {
     padding: 0;
 }
 .navbar {
+    background-color: #323232;
+    opacity: 0.9;
     border: 1px solid #daa520;
     width: 100vw;
     height: auto;
@@ -222,3 +224,45 @@ i {
     border: 1px solid #daa520;
 }
 
+/* ------------------------ The Menu ------------- */
+.food-and-drinks-menu {
+    border: 1px solid #daa520;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.menu-body {
+    background-color: #323232;
+    color: #fafafa;
+    text-align: center;
+}
+
+.menu-body .menu-title h5 button {
+    font-size: 28px;
+    font-family: "Just Another Hand", sans-serif;
+}
+
+.menu-body h5 {
+  color: #daa520;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.menu-body .btn-link {
+    color: #daa520;
+    text-shadow: 1px 1px #fafafa;
+    font-weight: 700;
+}
+
+
+.menu-body dd {
+    color: #daa520;
+}
+
+.menu-body .milk-options {
+    color: #daa520;
+}
+
+.menu-body .diet-info {
+    color: #fafafa;
+}
