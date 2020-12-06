@@ -326,7 +326,6 @@ i {
     opacity: 0.9;
 }
 
-
 .reservation-area form {
     background-color: #323232;
     opacity: 0.9;
@@ -360,11 +359,5 @@ i {
     font-weight: 700;
 }
 
-.reservation-area form .btn:active {
-    content: "Sent";
-    background-color: #fafafa;
-    border: 1px solid #daa520;
-    color: #daa520;
-    font-weight: 700;
-}
+
 
