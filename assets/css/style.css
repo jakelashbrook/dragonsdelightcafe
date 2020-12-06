@@ -500,6 +500,34 @@ i {
     background-color: #323232;
     opacity: 0.9;
     color: #fafafa;
-    border: 1px solid #daa520;
+    border: 1x solid #daa520;
+}
     
+    /* Scroll to the top button */
+  #top-of-the-page-btn {
+  position: fixed; 
+  bottom: 40px; 
+  right: 40px; 
+  z-index: 99; 
+  border: 1px solid #fafafa; 
+  background-color: #daa520; 
+  color: #fafafa; 
+  padding: 10px; 
+  border-radius: 50px; 
+  font-size: 16px; 
+}
+
+#top-of-the-page-btn I {
+    color: #fafafa;
+    text-shadow: none;
+}
+
+#top-of-the-page-btn:hover {
+  background-color: #fafafa; 
+  color: #daa520;
+  border: 1px solid #daa520;
+}
+
+#top-of-the-page-btn:hover i {
+    color: #daa520;
 }
