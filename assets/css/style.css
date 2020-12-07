@@ -507,6 +507,7 @@ i {
   #top-of-the-page-btn {
   position: fixed; 
   bottom: 40px; 
+  right: 40px;
   border: 1px solid #fafafa; 
   background-color: #daa520; 
   color: #fafafa; 

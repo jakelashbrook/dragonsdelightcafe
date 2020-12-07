@@ -1,8 +1,10 @@
 # Dragons Delight Cafe and Bakery Website
 
-[You can view the project here on Github Pages](#)
+[You can view the project here on Github Pages](https://jakelashbrook.github.io/dragonsdelightcafe/)
 
 ![Site Screenshot](#)
+
+## Site Summary
 
 Dragons Delight is a small cafe and bakery business run in Amsterdam, The Netherlands. They are looking to build a sole online presence through the creation
 of a new website where customers will be able to find everything that they need to engage with the business and order food. Their main target audience will continue to
@@ -10,7 +12,15 @@ be expats and tourists visiting the city- with a special focus on attracting gue
 The Pestana Riverside Hotel next door to them.
  
 
-Please see more information about the strategy and scope [here](/docs/dragons-delight-strategy-and-scope.pdf)
+Please see more information about the strategy and scope [here](/docs/dragons-delight-strategy-and-scope.pdf) 
+
+## Development Information  
+
+This is my first big development project after making some amateur websites in the past based on lessons available 
+at [W3 Schools](https://www.w3schools.com/). I have spent over a month working on this project and this is the third
+repository I have made for it due to running into unresolved bug issues with the 
+workspace of my last repository and not being happy with my first attempt at this project. Thankfully, I was able to re-use the code I've spent so long on for this version with
+only some minor changes made based on the UX Survey you can find in the Testing Section below.
 
 User Experience (UX)
 ===== 
@@ -19,7 +29,7 @@ User Experience (UX)
     - a. As a first time user, I want to access a menu to see what products are available should I choose to visit.
     - b. As a first time user, I want to be able to easily navigate through the site content and find what I'm looking
          for with ease.
-    - c. As a first time user, I want to see pictures of the restaurant and food to act as evidence of the standard and quality of food. 
+    - c. As a first time user, I want to see pictures of the restaurant food to act as evidence of the standard and quality of food. 
     - d. As a first time user, I want to easily find contact methods such as social media, email or telephone links.
 
 
@@ -102,6 +112,8 @@ Technologies Used
 7. [EZ Gif](https://ezgif.com/)  
     - Used to edit the width/height of images and decrease their file sizes
    whilst maintining the maximum quality possible.  
+8. [Minify Code](http://minifycode.com/css-minifier/)  
+    - Used to Minify the CSS code to enhance performance and beautify the HTML.
 
    Testing
 ====
@@ -109,8 +121,8 @@ Technologies Used
 The W3C Markup Validator and The W3C CSS Validator Services were used to validate every page of the project
 to ensure there were no syntax errors in the project:  
 
-  - [W3C Markup Validator - Results](#)
-  - [W3C CSS Validator - Results](#)  
+  - [W3C Markup Validator - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjakelashbrook.github.io%2Fdragonsdelightcafe%2F)
+  - [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjakelashbrook.github.io%2Fdragonsdelightcafe%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)  
 
 ### **Testing User Stories from the UX Section**
  - **First Time User Goals:**  
@@ -294,6 +306,10 @@ Credits
  CSS and certain HTML parts removed to optimize its style within the page.
  - [W3.css Display Container](https://www.w3schools.com/w3css/w3css_images.asp) was used to display the Order CTA 
  overlaying the cover image.
+ - [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) was used to inspire me to created
+ my own solution to the back to the top button without having to use Javascript. To do this I simply placed an ID to
+ the opening tag of the header and linked the button to it via the href attribute. 
+
 
 ### **Content**
  - All of the content was developed for Dragons Delight by Jake Ashley Lashbrook. 
