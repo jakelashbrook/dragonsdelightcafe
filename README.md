@@ -2,7 +2,7 @@
 
 [You can view the project here on Github Pages](https://jakelashbrook.github.io/dragonsdelightcafe/)
 
-![Site Screenshot](#)
+![Site Screenshot](/assets/images/site-screenshot.jpg)
 
 ## Site Summary
 
@@ -115,7 +115,7 @@ Technologies Used
 8. [Minify Code](http://minifycode.com/css-minifier/)  
     - Used to Minify the CSS code to enhance performance and beautify the HTML.
 
-   Testing
+Testing
 ====
 ### **Validation** 
 The W3C Markup Validator and The W3C CSS Validator Services were used to validate every page of the project
@@ -179,6 +179,8 @@ to ensure there were no syntax errors in the project:
       newsletter sign up banner. 
       - b. Next to the Loyalty Scheme section, there is information about the special Student Club currently
       on offer at Dragons Delight. Users can click the email link to sign up.
+
+      You can see screenshots of the site and attached UX story explanations [here](/docs/ux-test-stories.pdf)
 
 
 ### **UX Survey**
