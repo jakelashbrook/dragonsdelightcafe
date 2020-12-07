@@ -50,7 +50,7 @@ User Experience (UX)
         - The colour scheme for the website will be an offshade of white (#fafafa), a dark shade of grey (#323232) 
         and a light brown (#daa520) to bring in the idenity of the business and their colour scheme within the building.
   - **Typography:**
-        - The font for the website will be "Noto Sans JP" and the logo font will be "Just Another Hand".
+        - The font for the website will be "Noto Sans JP" and the logo and the food and drink menu heading font will be "Just Another Hand".
 
   - **Imagery:**
         - Imagery will be used frequently in the site to catch the users attention and entice them to sample
@@ -75,8 +75,7 @@ so it makes sense to give these users a more indepth view of the company and ext
 and try it for themselves.
 
 ## Features
-  - Easy navigation through the site with a scroll to the top button on all buttons, 
-    and fixed navigation on desktops.
+  - Easy navigation through the site with a scroll to the top button, and fixed navigation on desktops.
   - Responsive on all devices, including the Samsung Galaxy Fold. Smaller than Bootstrap Breakpoints.
   - Social Media Links, with future further integration planned with Facebook Messenger.
   - Easy Order Now CTA on all devices.  
@@ -308,7 +307,7 @@ Credits
  CSS and certain HTML parts removed to optimize its style within the page.
  - [W3.css Display Container](https://www.w3schools.com/w3css/w3css_images.asp) was used to display the Order CTA 
  overlaying the cover image.
- - [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) was used to inspire me to created
+ - [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) was used to inspire me to create
  my own solution to the back to the top button without having to use Javascript. To do this I simply placed an ID to
  the opening tag of the header and linked the button to it via the href attribute. 
 
