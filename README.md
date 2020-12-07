@@ -102,17 +102,27 @@ Technologies Used
 4. [Git:](https://git-scm.com/)
     - Used for maintaining version control for possible later edits, changes, updates or fixes. 
       The Gitpod terminal was used to commit to Git, and then Git pushed to GitHub.
-5. [GitHub:](https://github.com/)
+5. [Gitpod:](https://git-scm.com/)
+    - Used for maintaining version control in conjunction with Git for possible later edits, changes, updates or fixes. 
+      The Gitpod terminal was used to commit to Git, and then Git pushed to GitHub.
+6. [GitHub:](https://github.com/)
     - Used to store the project as a repository after being pushed by Git. 
-6. [W3.css](https://www.w3schools.com/w3css/default.asp)
+7. [W3.css](https://www.w3schools.com/w3css/default.asp)
     - Used to add extra responsivity and styling to the layout of the cover Image text overlay. 
     I originally planned to include more W3.css animations on the gallery area, but decided to hold back 
     for a later release so the site can visibly grow more over several releases.
-7. [EZ Gif](https://ezgif.com/)  
+8. [EZ Gif](https://ezgif.com/)  
     - Used to edit the width/height of images and decrease their file sizes
    whilst maintining the maximum quality possible.  
-8. [Minify Code](http://minifycode.com/css-minifier/)  
-    - Used to Minify the CSS code to enhance performance and beautify the HTML.
+9. [Minify Code](http://minifycode.com/css-minifier/)  
+    - Used to minify the CSS code and beautify the HTML.
+10. [Google Chrome](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjTs566lrztAhVWgVAGHY0YAPAYABAAGgJkZw&ohost=www.google.com&cid=CAESQeD2bXLBuEcNru5L7drqd4LEQoEtLWo6-MJ8riBpsJ_JS2qMkIUwB2F47SSmDD6FSoKL0E6kfWRoBGO1zah8p5OM&sig=AOD64_3NgnmlpTYbm0-4BM5QRW_6qVN5Vg&q&adurl&ved=2ahUKEwiOuJa6lrztAhUQi1wKHSWJAuoQ0Qx6BAgLEAE)
+    - The browser used whilst making the project.
+11. [Responsinator](http://www.responsinator.com/)
+    - Used for testing the site across different device types.
+12. [Am I Responsive?](http://ami.responsivedesign.is/)
+    - Used to provide the screenshot of Dragons Delight across multiple devices at the top of this README.md file.
+
 
 Testing
 ====
@@ -301,8 +311,8 @@ Credits
 
 ### **Code**
  - [Bootstrap 4.0.0](https://getbootstrap.com/docs/4.3/components/navbar/) Framework used throughout the website
- for responsive components and the grid system. The Carousel component was used for a Gallery exclusively for mobile
- devices, A review section for larger sites and the Dropdown component for the food and drinks menu.
+ for responsive components and the grid system. The *Carousel component* was used for a Gallery exclusively for mobile
+ devices, A review section for larger sites and the *Dropdown component* for the food and drinks menu.
 - [Google Map Generator](https://www.embedgooglemap.net/) was used for the map iFrame in the Find Us section. The code has been edited slightly via 
  CSS and certain HTML parts removed to optimize its style within the page.
  - [W3.css Display Container](https://www.w3schools.com/w3css/w3css_images.asp) was used to display the Order CTA 
