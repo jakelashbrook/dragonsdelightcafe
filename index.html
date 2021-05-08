@@ -15,7 +15,16 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet preconnect">
 	<!-- CSS Stylesheet-->
-	<link rel="stylesheet" href="./assets/css/min.style.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/min.style.css" type="text/css">
+    <!-- jQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" rel="preconnect" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- EMAIL JS LINK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_iOrz3jSovA1gEDamH4B5P");
+        })();
+    </script>
     <title>Dragons Delight | Authentic English Cafe and Bakery | Amsterdam De Pijp | Next to Pestana Riverside Hotel Amsterdam |</title>
   </head>
   <body>
@@ -89,6 +98,10 @@
 <!-- Order CTA  -->
     </header>
 
+<!-- Maintenance Warning -->
+<div class="w3-panel text-center">
+    <p>This website is currently undergoing maintenance, please bare with us as updates are made.</p>
+</div>
     <section class="opening-bio mr-0">
         <div class="jumbotron-fluid opening-bio">
 			<div class="row">
@@ -343,33 +356,39 @@
 					<hr>
 				</div>
 			</div>
-			<form class="container text-center pb-3">
-				<div class="form-group">
-					<label for="fullname" class="text-uppercase">Full Name</label>
-					<input type="text" class="form-control pl-3 pr-3" id="fullname" placeholder="Full Name..">
-				</div>
-				<div class="form-group">
-                    <label for="email" class="text-uppercase">Email address</label>
-					<input type="email" class="form-control pl-3 pr-3" id="email" aria-describedby="email" placeholder="Enter Email Address.."> <small id="emailHelp" class="form-text">We will not share your email address with any third parties.</small>
+            <form id="reserve-table-form" class="container">
+                <div class="field">
+                    <label for="from_name">Full Name:</label>
+                    <input type="text" name="from_name" id="from_name" class="w3-input" required>
                 </div>
-				<div class="form-group">
-					<label for="guests" class="text-uppercase">Guests</label>
-					<select id="guests" class="custom-select" name="guests">
-						<option>1 person</option>
-						<option>2 persons</option>
-						<option>3 persons</option>
-						<option>4 persons</option>
-						<option>5 persons</option>
-						<option>6 persons</option>
-					</select>
-				</div>
-				<button type="submit" class="btn btn-primary text-uppercase">Submit</button>
-			</form>
+                <div class="field">
+                    <label for="from_email">Email Address:</label>
+                    <input type="text" name="from_email" id="from_email" class="w3-input" required>
+                </div>
+                <div class="field">
+                    <label for="phone_number">Phone number:</label>
+                    <input type="text" name="phone_number" id="phone_number" class="w3-input" required>
+                </div>
+                <div class="field">
+                    <label for="guests">Number of Guests</label>
+                    <input type="text" name="guests" id="guests" class="w3-input" required>
+                </div>
+                <div class="field">
+                    <label for="date_time">Date of reservation:</label>
+                    <input type="text" name="date_time" id="date_time" class="w3-input" required>
+                </div>
+                <div class="field">
+                    <label for="message">Extra Details:</label>
+                    <textarea type="text" name="message" class="w3-input" id="message"></textarea>
+                </div>
+            
+                <input type="submit" id="request-table-btn" class="w3-button text-center mt-3 mb-3" value="Send Email">
+            </form>
 		</div>
 </section>
 <section>
 <!-- Newsletter-->
-        <div class="container-fluid newsletter-container pt-3 d-none d-lg-block">
+        <div class="container-fluid newsletter-container pt-3 d-none">
 			<div class="row">
 				<div class="col">
 					<div class="container">
@@ -541,8 +560,9 @@
 	</div>
 <!--     Scroll to top button--> 
     <a id="top-of-the-page-btn"  title="scroll to top of page" class="btn" href="#top-of-the-page"><i class="fas fa-arrow-up"></i></a>
+<!-- Internal JS -->
+<script src="assets/js/email.js" type="text/javascript"></script>
 <!-- Bootstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" rel="preconnect" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" rel="preconnect" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" rel="preconnect" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- Font Awesome Link -->
