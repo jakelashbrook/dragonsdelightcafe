@@ -1,6 +1,6 @@
 const btn = document.getElementById('request-table-btn');
 
-document.getElementById('reservation-form')
+document.getElementById('reserve-table-form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
