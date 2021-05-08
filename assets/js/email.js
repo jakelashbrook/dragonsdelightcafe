@@ -6,7 +6,7 @@ document.getElementById('reserve-table-form')
 
    btn.value = 'Sending...';
 
-   const serviceID = 'gmail';
+   const serviceID = 'default_service';
    const templateID = 'table-reserve';
 
    emailjs.sendForm(serviceID, templateID, this)
@@ -18,3 +18,5 @@ document.getElementById('reserve-table-form')
       alert(JSON.stringify(err));
     });
 });
+
+console.log("connected")
