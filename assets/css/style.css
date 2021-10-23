@@ -59,9 +59,9 @@ i {
     padding: 0;
 }
 .navbar {
-    background-color: #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
-    border: 1px solid #daa520;
+    border: 1px solid #323232;
     width: 100vw;
     height: auto;
     position: fixed; 
@@ -78,20 +78,20 @@ i {
     font-family: "Just Another Hand", cursive;
     font-size: 30px;
     text-decoration: none;
-    color: #daa520;
-    text-shadow: 0.5px 0.5px #323232;
+    color: #323232;
+    text-shadow: 0.5px 0.5px #fafafa;
     letter-spacing: 4px;
 }
 
 .navbar-toggler i {
-    color: #daa520;
+    color: #323232;
     text-shadow: none;
 }
 
 .navbar .collapse .navbar-collapse {
-    background-color: #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
-    border: 1px solid #daa520;
+    border: 1px solid #323232;
 }
 
 .navbar .nav-link {
@@ -107,7 +107,7 @@ i {
 }
 
 .navbar .nav-link:hover {
-    background-color: #daa520;
+    background-color: #fafafa;
     border-radius: 10px;
 }
 
@@ -135,7 +135,7 @@ i {
 /* ------- Cover Img CTA btn  ---- */
 
 .order-cta-container {
-    background-color: #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
     color: #323232;
     border: 1px solid #daa520;
@@ -144,18 +144,18 @@ i {
 }
 
 .order-cta-container .btn, .btn-dark {
-    background-color: #daa520;
-    color: #323232;
-    border: 2px solid #323232;
+    background-color: #323232;
+    color: #fafafa;
+    border: 2px solid #fafafa;
     font-weight: 700;
     letter-spacing: 2px;
     
 }
 
 .order-cta-container .btn:hover {
-    background-color: #323232;
-    color: #daa520;
-    border: 2px solid #daa520;
+    background-color: #fafafa;
+    color: #323232;
+    border: 2px solid #323232;
     border-radius: 10px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -284,21 +284,29 @@ i {
 }
 
 .why-us-title h3 {
-    color: #daa520;
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
     font-weight: 900;
-    background-color: #fafafa;
-    border: 1px solid #daa520;  
+    background-color: #daa520;
+    border: 1px solid #fafafa;  
     padding: 10px;
 }
 
 .why-us-container .col {
-    border: 2px solid #daa520;
-    background-color: #fafafa;;
+    border: 2px solid #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
 }
 
 .why-us-container .col i {
     font-size: 42px;
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
+}
+
+.why-us-container .col h3 {
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
 }
 
 /*         Tripadvisor Reviews */
@@ -323,15 +331,15 @@ i {
 }
 
 .reservation-area .reservation-title {
-    background-color: #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
 }
 
 .reservation-area form {
-    background-color: #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
-    color: #daa520;
-    border: 2px solid #daa520;
+    color: #323232;
+    border: 2px solid #323232;
 }
 
 .reservation-area form input {
@@ -348,16 +356,16 @@ i {
 }
 
 .reservation-area form .btn {
-    background-color: #daa520;
+    background-color: #fafafa;
     border: 1px solid #323232;
     color: #323232;
     font-weight: 700;
     }
 
 .reservation-area form .btn:hover {
-    background-color: #daa520;
-    border: 1px solid #daa520;
-    color: #daa520;
+    background-color: #323232;
+    border: 1px solid #fafafa;
+    color: #fafafa;
     font-weight: 700;
 }
 
