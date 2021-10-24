@@ -444,13 +444,27 @@ i {
 
 /*          Gallery          */
 .gallery-section {
-    background-color: #fafafa;
+    background-color: #daa520;
     border: 1px solid #daa520;
 }
 
 #large-gallery {
-    background-color: #fafafa;
-    column-count: 3;
+    background-color: #daa520;
+      /* Prevent vertical gaps - CSS Tricks */
+    line-height: 0;
+   
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;  
+}
+
+#large-gallery img {
+    /* Just in case there are inline attributes - CSS Tricks */
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -508,10 +522,10 @@ i {
 
 /* The Footer */ 
 .footer-container {
-    background-color: #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
     color: #323232;
-    border: 1px solid #daa520;
+    border: 1px solid #323232;
 }
     
     /* Scroll to the top button */
