@@ -99,8 +99,26 @@
     </header>
 
 <!-- Maintenance Warning -->
+<!-- NEW MENU Coming Soon -->
+<div class="container-fluid" style="background-color: #fafafa; color: #323232; z-index: 0.5;">
+	<div class="row">
+
+	<div class="col-4 p-2"></div>
+	<div class="col-4 p-2">
+		<span class="w3-animate-fading text-center" style="text-shadow: 1px 1px #daa520;">
+			The WINTER Menu is on the way... Stay tuned!
+		</span>
+	</div>
+	<div class="col-4 p-2"></div>
+
+
+	</div>
+	  </div>
+	   <!-- End of Menu announcement-->
 <div class="w3-panel text-center m-0" style="background-color: #daa520;">
-    <p style="color: #fafafa;" class="pt-2">This website is currently undergoing maintenance, please bare with us as updates are made.</p>
+    <p style="color: #323232;" class="font-weight-bold pt-2">
+	This website is currently undergoing maintenance, please bare with us as updates are made.
+	</p>
 </div>
     <section class="opening-bio mr-0">
         <div class="jumbotron-fluid opening-bio">
@@ -138,7 +156,7 @@
 <!-- Bootstrap Dropdown Used as Template base-->
         <div id="accordion" class="food-and-drinks-menu">
 			<div class="card menu-body">
-				<div class="card-header menu-title" id="headingOne">
+				<div class="card-header menu-title" id="headingOne" style="background-color: #fafafa;">
 					<h5 class="mb-0 text-center">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
            THE FOOD MENU <i class="fas fa-arrow-down"></i>
@@ -197,7 +215,7 @@
 				</div>
 			</div>
 			<div class="card menu-body">
-				<div class="card-header menu-title" id="headingTwo">
+				<div class="card-header menu-title" id="headingTwo" style="background-color: #fafafa;">
 					<h5 class="mb-0 text-center">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           THE DRINKS MENU <i class="fas fa-arrow-down"></i>
@@ -374,8 +392,8 @@
                     <input type="text" name="guests" id="guests" class="w3-input" required>
                 </div>
                 <div class="field">
-                    <label for="date_time">Date of reservation:</label>
-                    <input type="text" name="date_time" id="date_time" class="w3-input" required>
+                    <label for="date_time">Date/Time of reservation:</label>
+                    <input type="text" name="date_time" id="date_time" class="w3-input" type="datetime-local" required>
                 </div>
                 <div class="field">
                     <label for="message">Extra Details:</label>
