@@ -8,7 +8,7 @@ html {
 
 body { 
     position: relative;
-    background-color: #323232;
+    background-color: #fafafa;
 }
 
 /* Across Site Style Rules */
@@ -26,7 +26,7 @@ h3 {
 p {
     font-size: 18px;
     font-family: "Noto Sans Jp", sans-serif;
-    color: #fafafa;
+    color: #323232;
 }
 
 a {
@@ -59,9 +59,9 @@ i {
     padding: 0;
 }
 .navbar {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
-    border: 1px solid #daa520;
+    border: 1px solid #323232;
     width: 100vw;
     height: auto;
     position: fixed; 
@@ -78,36 +78,36 @@ i {
     font-family: "Just Another Hand", cursive;
     font-size: 30px;
     text-decoration: none;
-    color: #daa520;
+    color: #323232;
     text-shadow: 0.5px 0.5px #fafafa;
     letter-spacing: 4px;
 }
 
 .navbar-toggler i {
-    color: #daa520;
+    color: #323232;
     text-shadow: none;
 }
 
 .navbar .collapse .navbar-collapse {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
-    border: 1px solid #daa520;
+    border: 1px solid #323232;
 }
 
 .navbar .nav-link {
-    color: #fafafa;
+    color: #323232;
     font-weight: 600;
     margin: 0 15px 0 15px;
     letter-spacing: 2px;
 }
 
 .navbar .nav-link i {
-    color: #fafafa;
+    color: #323232;
     text-shadow: none;
 }
 
 .navbar .nav-link:hover {
-    background-color: #daa520;
+    background-color: #fafafa;
     border-radius: 10px;
 }
 
@@ -135,16 +135,16 @@ i {
 /* ------- Cover Img CTA btn  ---- */
 
 .order-cta-container {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
-    color: #daa520;
+    color: #323232;
     border: 1px solid #daa520;
     position: absolute;
 
 }
 
 .order-cta-container .btn, .btn-dark {
-    background-color: #daa520;
+    background-color: #323232;
     color: #fafafa;
     border: 2px solid #fafafa;
     font-weight: 700;
@@ -154,16 +154,16 @@ i {
 
 .order-cta-container .btn:hover {
     background-color: #fafafa;
-    color: #daa520;
-    border: 2px solid #daa520;
+    color: #323232;
+    border: 2px solid #323232;
     border-radius: 10px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
 .order-cta-container i {
-    color: #fafafa;
-    text-shadow: 1px 1px #323232;
+    color: #323232;
+    text-shadow: 1px 1px #daa520;
 }
 
 .order-cta-container .btn:hover i {
@@ -174,7 +174,7 @@ i {
 /* ------- Cover Img CTA btn  ---- */
 
 .order-cta-container {
-    background-color: #323232;
+    background-color: #fafafa;
     opacity: 0.9;
     color: #daa520;
     border: 1px solid #daa520;
@@ -184,15 +184,15 @@ i {
 
 .order-cta-container .btn, .btn-dark {
     background-color: #daa520;
-    color: #fafafa;
-    border: 2px solid #fafafa;
+    color: #323232;
+    border: 2px solid #323232;
     font-weight: 700;
     letter-spacing: 2px;
     
 }
 
 .order-cta-container .btn:hover {
-    background-color: #fafafa;
+    background-color: #323232;
     color: #daa520;
     border: 2px solid #daa520;
     border-radius: 10px;
@@ -201,26 +201,26 @@ i {
 }
 
 .order-cta-container i {
-    color: #fafafa;
-    text-shadow: 1px 1px #323232;
-}
-
-.order-cta-container .btn:hover i {
     color: #daa520;
     text-shadow: 1px 1px #323232;
 }
 
+.order-cta-container .btn:hover i {
+    color: #323232;
+    text-shadow: 1px 1px #daa520;
+}
+
 /* --- Bio */
 .short-bio {
-    background-color: #323232;
+    background-color: #fafafa;
     color: #fafafa;
     border: 1px solid #daa520;
 }
 
 /* --- Opening Times */
 .opening-bio .opening-times {
-    background-color: #323232;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #323232;
     border: 1px solid #daa520;
 }
 
@@ -232,8 +232,8 @@ i {
 }
 
 .menu-body {
-    background-color: #464646;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #323232;
 }
 
 .menu-body .menu-title h5 button {
@@ -251,7 +251,7 @@ i {
 
 .menu-body .btn-link {
     color: #daa520;
-    text-shadow: 1px 1px #fafafa;
+    text-shadow: 1px 1px #323232;
     font-weight: 700;
 }
 
@@ -261,11 +261,11 @@ i {
 }
 
 .menu-body .milk-options {
-    color: #fafafa;
+    color: #323232;
 }
 
 .menu-body .diet-info {
-    color: #fafafa;
+    color: #323232;
 }
 
 /* Why Visit Us? */
@@ -284,26 +284,35 @@ i {
 }
 
 .why-us-title h3 {
-    color: #daa520;
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
     font-weight: 900;
-    background-color: #323232;
-    border: 1px solid #daa520;  
+    background-color: #daa520;
+    border: 1px solid #fafafa;  
+    padding: 10px;
 }
 
 .why-us-container .col {
-    border: 2px solid #daa520;
-    background-color: #323232;;
+    border: 2px solid #fafafa;
+    background-color: #daa520;
     opacity: 0.9;
 }
 
 .why-us-container .col i {
     font-size: 42px;
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
+}
+
+.why-us-container .col h3 {
+    color: #fafafa;
+    text-shadow: 1px 1px #323232;
 }
 
 /*         Tripadvisor Reviews */
 .reviews {
-    background-color: #464646;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #323232;
     border: 1px solid #daa520;
 }
 
@@ -322,46 +331,47 @@ i {
 }
 
 .reservation-area .reservation-title {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
 }
 
 .reservation-area form {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
-    color: #daa520;
+    color: #323232;
+    border: 2px solid #323232;
 }
 
 .reservation-area form input {
-    border: 2px solid #daa520;
+    border: 2px solid #323232;
 }
 
 .reservation-area select {
-    border: 2px solid #daa520;
+    border: 2px solid #323232;
 }
 
 .reservation-area small {
-    color: #fafafa;
+    color: #323232;
     opacity: 0.75;
 }
 
 .reservation-area form .btn {
-    background-color: #daa520;
-    border: 1px solid #fafafa;
-    color: #fafafa;
+    background-color: #fafafa;
+    border: 1px solid #323232;
+    color: #323232;
     font-weight: 700;
     }
 
 .reservation-area form .btn:hover {
-    background-color: #fafafa;
-    border: 1px solid #daa520;
-    color: #daa520;
+    background-color: #323232;
+    border: 1px solid #fafafa;
+    color: #fafafa;
     font-weight: 700;
 }
 
 /* Newsletter Sign Up Container */
 .newsletter-container {
-    background-color: #464646;
+    background-color: #fafafa;
     border-width: 0.5px 1px 0.5px 1px;
     border-style: solid;
     border-color: #daa520;
@@ -385,12 +395,12 @@ i {
     box-sizing: border-box;
     font-weight: 600;
     background-color: #daa520;
-    color: #fafafa;
-    border: 1px solid #fafafa;
+    color: #323232;
+    border: 1px solid #323232;
 }
 
 .newsletter-container input[type="submit"]:hover {
-    background-color: #fafafa;
+    background-color: #323232;
     color: #daa520;
     border: 1px solid #daa520;
     border-radius: 10px;
@@ -398,7 +408,7 @@ i {
 
 /* The Student/ Loyalty Container*/
 .student-loyalty {
-    background-color: #323232;
+    background-color: #fafafa;
     border: 1px solid #daa520;
     border-top: none;
 }
@@ -406,7 +416,7 @@ i {
 /* The Student Club */
 
 .student-club-info {
-    color: #fafafa;
+    color: #323232;
     border: 1px solid #daa520;
 }
 
@@ -434,13 +444,27 @@ i {
 
 /*          Gallery          */
 .gallery-section {
-    background-color: #464646;
+    background-color: #daa520;
     border: 1px solid #daa520;
 }
 
 #large-gallery {
-    background-color: #464646;
-    column-count: 3;
+    background-color: #daa520;
+      /* Prevent vertical gaps - CSS Tricks */
+    line-height: 0;
+   
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;  
+}
+
+#large-gallery img {
+    /* Just in case there are inline attributes - CSS Tricks */
+  width: 100% !important;
+  height: auto !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -457,7 +481,7 @@ i {
 }
 
 .gallery-section h4 {
-    color: #fafafa;
+    color: #323232;
 }
 
 /* Mobile Gallery Carousel */
@@ -469,8 +493,8 @@ i {
 
 /*                   Find Us           */
 .find-us {
-    background-color: #323232;
-    color: #fafafa;
+    background-color: #fafafa;
+    color: #323232;
     border: 1px solid #daa520;
 }
 
@@ -485,7 +509,7 @@ i {
 
 .find-us h3 i {
     color: #daa520;
-    text-shadow: 1px 1px #fafafa;
+    text-shadow: 1px 1px #323232;
 }
 
 .find-us hr {
@@ -498,10 +522,10 @@ i {
 
 /* The Footer */ 
 .footer-container {
-    background-color: #323232;
+    background-color: #daa520;
     opacity: 0.9;
-    color: #fafafa;
-    border: 1px solid #daa520;
+    color: #323232;
+    border: 1px solid #323232;
 }
     
     /* Scroll to the top button */
@@ -517,13 +541,13 @@ i {
   font-size: 16px; 
 }
 
-#top-of-the-page-btn I {
+#top-of-the-page-btn i {
     color: #fafafa;
     text-shadow: none;
 }
 
 #top-of-the-page-btn:hover {
-  background-color: #fafafa; 
+  background-color: #323232; 
   color: #daa520;
   border: 1px solid #daa520;
 }
