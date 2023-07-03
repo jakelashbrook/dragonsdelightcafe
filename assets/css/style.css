@@ -19,7 +19,7 @@ h3 {
     letter-spacing: 4px;
     font-size: 20px;
     font-weight: 600;
-    color: #daa520;
+    color: #008080;
     text-transform: capitalize;
 }
 
@@ -30,7 +30,7 @@ p {
 }
 
 a {
- color: #daa520;
+ color: #008080;
 }
 
 a:hover {
@@ -38,19 +38,19 @@ a:hover {
 }
 
 hr {
-    border: 2px solid #daa520;
+    border: 2px solid #008080;
 }
 
 mark {
-    background-color: #daa520;
+    background-color: #008080;
 }
 
 em {
-    color: #daa520;
+    color: #008080;
 }
 
 i {
-    color: #daa520;
+    color: #008080;
     text-shadow: 1px 1px #fafafa;
 }
 
@@ -59,7 +59,7 @@ i {
     padding: 0;
 }
 .navbar {
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
     border: 1px solid #323232;
     width: 100vw;
@@ -89,7 +89,7 @@ i {
 }
 
 .navbar .collapse .navbar-collapse {
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
     border: 1px solid #323232;
 }
@@ -135,10 +135,10 @@ i {
 /* ------- Cover Img CTA btn  ---- */
 
 .order-cta-container {
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
     color: #323232;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
     position: absolute;
 
 }
@@ -163,11 +163,11 @@ i {
 
 .order-cta-container i {
     color: #323232;
-    text-shadow: 1px 1px #daa520;
+    text-shadow: 1px 1px #008080;
 }
 
 .order-cta-container .btn:hover i {
-    color: #daa520;
+    color: #008080;
     text-shadow: 1px 1px #323232;
 }
 
@@ -176,14 +176,14 @@ i {
 .order-cta-container {
     background-color: #fafafa;
     opacity: 0.9;
-    color: #daa520;
-    border: 1px solid #daa520;
+    color: #008080;
+    border: 1px solid #008080;
     position: absolute;
 
 }
 
 .order-cta-container .btn, .btn-dark {
-    background-color: #daa520;
+    background-color: #008080;
     color: #323232;
     border: 2px solid #323232;
     font-weight: 700;
@@ -201,32 +201,32 @@ i {
 }
 
 .order-cta-container i {
-    color: #daa520;
+    color: #008080;
     text-shadow: 1px 1px #323232;
 }
 
 .order-cta-container .btn:hover i {
     color: #323232;
-    text-shadow: 1px 1px #daa520;
+    text-shadow: 1px 1px #008080;
 }
 
 /* --- Bio */
 .short-bio {
     background-color: #fafafa;
     color: #fafafa;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 /* --- Opening Times */
 .opening-bio .opening-times {
     background-color: #fafafa;
     color: #323232;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 /* ------------------------ The Menu ------------- */
 .food-and-drinks-menu {
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
     margin-top: 0;
     padding-top: 0;
 }
@@ -239,25 +239,25 @@ i {
 .menu-body .menu-title h5 button {
     font-size: 28px;
     font-family: "Just Another Hand", cursive;
-    color: #daa520;
+    color: #008080;
     text-shadow: #323232 1px 1px;
 }
 
 .menu-body h5 {
-  color: #daa520;
+  color: #008080;
   letter-spacing: 2px;
   font-size: 24px;
 }
 
 .menu-body .btn-link {
-    color: #daa520;
+    color: #008080;
     text-shadow: 1px 1px #323232;
     font-weight: 700;
 }
 
 
 .menu-body dd {
-    color: #daa520;
+    color: #008080;
 }
 
 .menu-body .milk-options {
@@ -273,7 +273,7 @@ i {
 .why-us-container {
     border-width: 0.5px 1px 0.5px 1px;
     border-style: solid;
-    border-color:#daa520;
+    border-color:#008080;
 }
 
 .why-us-bg-img {
@@ -287,14 +287,14 @@ i {
     color: #fafafa;
     text-shadow: 1px 1px #323232;
     font-weight: 900;
-    background-color: #daa520;
+    background-color: #008080;
     border: 1px solid #fafafa;  
     padding: 10px;
 }
 
 .why-us-container .col {
     border: 2px solid #fafafa;
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
 }
 
@@ -313,11 +313,11 @@ i {
 .reviews {
     background-color: #fafafa;
     color: #323232;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 .reviews h4 {
-    color: #daa520;
+    color: #008080;
 }
 
 /* Reservation Form                      */
@@ -327,16 +327,16 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
 
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 .reservation-area .reservation-title {
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
 }
 
 .reservation-area form {
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
     color: #323232;
     border: 2px solid #323232;
@@ -374,12 +374,12 @@ i {
     background-color: #fafafa;
     border-width: 0.5px 1px 0.5px 1px;
     border-style: solid;
-    border-color: #daa520;
+    border-color: #008080;
     text-align: center;
 }
 
 .newsletter-container .newsletter-title {
-    color: #daa520;
+    color: #008080;
     text-shadow: 1px 1px #fafafa;
 }
 
@@ -387,29 +387,29 @@ i {
     width: 100%;
     display: inline-block;
     box-sizing: border-box;
-    border: 2px solid #daa520;
+    border: 2px solid #008080;
 }
 
 .newsletter-container input[type="submit"] {
     width: 30%;
     box-sizing: border-box;
     font-weight: 600;
-    background-color: #daa520;
+    background-color: #008080;
     color: #323232;
     border: 1px solid #323232;
 }
 
 .newsletter-container input[type="submit"]:hover {
     background-color: #323232;
-    color: #daa520;
-    border: 1px solid #daa520;
+    color: #008080;
+    border: 1px solid #008080;
     border-radius: 10px;
 }
 
 /* The Student/ Loyalty Container*/
 .student-loyalty {
     background-color: #fafafa;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
     border-top: none;
 }
 
@@ -417,39 +417,39 @@ i {
 
 .student-club-info {
     color: #323232;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 /* The Loyalty Card */ 
 .loyalty-card-info {
     color: #fafafa;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 /* The Student/ Loyalty Container*/
 .promotions {
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
     border-top: none;
 }
 
 /* The Student Club */
 
 .student-club-info {
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 /* The Loyalty Card */ 
 .loyalty-card-info {
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 /*          Gallery          */
 .gallery-section {
-    background-color: #daa520;
-    border: 1px solid #daa520;
+    background-color: #008080;
+    border: 1px solid #008080;
 }
 
 #large-gallery {
-    background-color: #daa520;
+    background-color: #008080;
       /* Prevent vertical gaps - CSS Tricks */
     line-height: 0;
    
@@ -477,7 +477,7 @@ i {
     max-width: 100%;
     max-height: 300px;
     margin: 0.5px;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 .gallery-section h4 {
@@ -495,7 +495,7 @@ i {
 .find-us {
     background-color: #fafafa;
     color: #323232;
-    border: 1px solid #daa520;
+    border: 1px solid #008080;
 }
 
 .find-us iframe {
@@ -504,25 +504,25 @@ i {
 }
 
 .find-us h3 {
-    color: #daa520;
+    color: #008080;
 }
 
 .find-us h3 i {
-    color: #daa520;
+    color: #008080;
     text-shadow: 1px 1px #323232;
 }
 
 .find-us hr {
-    border: 2px solid #daa520;
+    border: 2px solid #008080;
 }
 
 .find-us h4 {
-    color: #daa520;
+    color: #008080;
 }
 
 /* The Footer */ 
 .footer-container {
-    background-color: #daa520;
+    background-color: #008080;
     opacity: 0.9;
     color: #323232;
     border: 1px solid #323232;
@@ -534,7 +534,7 @@ i {
   bottom: 40px; 
   right: 40px;
   border: 1px solid #fafafa; 
-  background-color: #daa520; 
+  background-color: #008080; 
   color: #fafafa; 
   padding: 10px; 
   border-radius: 50px; 
@@ -548,10 +548,10 @@ i {
 
 #top-of-the-page-btn:hover {
   background-color: #323232; 
-  color: #daa520;
-  border: 1px solid #daa520;
+  color: #008080;
+  border: 1px solid #008080;
 }
 
 #top-of-the-page-btn:hover i {
-    color: #daa520;
+    color: #008080;
 }
