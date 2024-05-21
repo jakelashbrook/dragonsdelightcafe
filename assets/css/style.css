@@ -78,8 +78,8 @@ i {
     font-family: "Just Another Hand", cursive;
     font-size: 30px;
     text-decoration: none;
-    color: #323232;
-    text-shadow: 0.5px 0.5px #fafafa;
+    color: #fafafa;
+    text-shadow: 0.5px 0.5px #323232;
     letter-spacing: 4px;
 }
 
@@ -117,7 +117,7 @@ i {
     width: 100vw;
     margin-right: 0;
 
-    background-image: url("../images/other-vegan-pancakes.webp");
+    background-image: url("../images/food_display.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
